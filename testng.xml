@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name=".crossbrowsertesting"/>
+      <class name="seleniumpkg.responsecodepgm"/>
+      <class name="seleniumpkg.facebook_select"/>
+      <class name="seleniumpkg.rediff_display"/>
+      <class name="seleniumpkg.scrnshrt"/>
+      <class name="seleniumpkg.linkcountpgm"/>
+      <class name="seleniumpkg.Rediff"/>
+      <class name="seleniumpkg.junitdemo"/>
+      <class name="seleniumpkg.rediff_select"/>
+      <class name="seleniumpkg.Amazon"/>
+      <class name="testNG.testNGdemo"/>
+      <class name="seleniumpkg.blazedemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
